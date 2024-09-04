@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check validity
+# Check validity of arguments
 if [[ $# -lt 1 ]]; then
 	echo "Missing argument! Example: ibash FILE_NAME"
 	exit
